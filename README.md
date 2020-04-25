@@ -2,8 +2,8 @@
 
 Very Old Research For Historical Purposes
 
-Very Old Wordk on Riverian Family Functions (LoL XD)
-This is a Riverian Function is a number tha in theit digits contains the sums of each subset on the list
+Very Old Work on Riverian Family Functions (LoL XD)
+This is a Riverian Function is a number that in their digits contains the sums of each subset on the list
 The original idea was that to search for a specific target you only had to look at the output of the function.
 It is theoretically interesting and is one of the beginnings of the NUMBER THEORY EQUATION OF SAT (http://independent.academia.edu/oarr) but is not practical.
 
