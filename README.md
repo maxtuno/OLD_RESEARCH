@@ -26,3 +26,22 @@ It is theoretically interesting and is one of the beginnings of the NUMBER THEOR
     559 [31, 523, 5]
     1082 [554, 523, 5]
     1113 [31, 554, 523, 5]
+
+First H Familly Function from https://github.com/www-PEQNP-science/OLD_RESEARCH/blob/master/P_NP_The_Collapse_of_Hierarchies.pdf
+
+def h(n):
+    return (2 ** n) ** (2 ** n) + ((2 ** n) - (2 ** n) ** (2 ** n)) // (2 ** n - 1) ** 2
+
+
+if __name__ == '__main__':
+    print(bin(h(1))[2:])
+    print(bin(h(2))[2:])
+    print(bin(h(3))[2:])
+    print(bin(h(4))[2:])
+
+"""
+10
+11100100
+111110101100011010001000
+1111111011011100101110101001100001110110010101000011001000010000
+"""
