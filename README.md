@@ -29,15 +29,6 @@ It is theoretically interesting and is one of the beginnings of the NUMBER THEOR
 
 First H Familly Function from https://github.com/www-PEQNP-science/OLD_RESEARCH/blob/master/P_NP_The_Collapse_of_Hierarchies.pdf
 
-def h(n):
-    return (2 ** n) ** (2 ** n) + ((2 ** n) - (2 ** n) ** (2 ** n)) // (2 ** n - 1) ** 2
-
-
-if __name__ == '__main__':
-    print(bin(h(1))[2:])
-    print(bin(h(2))[2:])
-    print(bin(h(3))[2:])
-    print(bin(h(4))[2:])
 
 """
 10
